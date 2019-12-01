@@ -172,14 +172,14 @@ nllss_approx_table = function(table) {
 # recipes
 
 # # to make a plot of K-S statistic
-#
+
 # rfun = rnorm
 # pfun = pnorm
 # n = 4
 # plot_ks(rfun(n), pfun)
 
 # # to get crit values
-#
+
 # n = 4
 # rfun = rnorm
 # reps = 1000000
@@ -188,7 +188,7 @@ nllss_approx_table = function(table) {
 # [1] 0.3029507 0.3215354 0.3454923 0.3753628 0.4133755
 
 # # to get the table
-#
+
 # ns = c(4:20, 25, 30)
 # rfun = rnorm
 # reps = 1000000
@@ -197,6 +197,6 @@ nllss_approx_table = function(table) {
 # save_table(ns, rfun, reps, alphas, filename)
 
 # # to compare approximations against table
-#
+
 # table = read.table(file.path("tables", "lilliefors-table-1000000.csv"), sep=" ", header=TRUE)
 # nllss_approx_table(table)
