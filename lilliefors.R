@@ -1,3 +1,5 @@
+# (Version 1.0)
+
 # for testing
 source("include.R")
 
@@ -139,9 +141,9 @@ plot_ks = function(vec, pfun) {
     y = pfun(x)
 
     plot(x, y, type="l", lwd=6, col="black", xlab="Z score", ylab="Cumulative probability", main="Calculating Kolmogorov-Smirnov statistic")
-    lines(ecdf_x(z), ecdf_y(z), lwd=1, cex=0, col="red")
-    segments(xd,yd, y1=(yd + d), col="black", lty="dotted", lwd=3)
-    legend("bottomright", lwd=c(6,2, 3), lty=c("solid", "solid", "dotted"), col=c("black", "red", "black"), legend=c("Hypothesized CDF", "Empirical CDF", "K-S test statistic"))
+    lines(ecdf_x(z), ecdf_y(z), lwd=2, cex=0, col="red")
+    segments(xd,yd, y1=(yd + d), col="black", lty="dotted", lwd=4)
+    legend("bottomright", lwd=c(6,2, 4), lty=c("solid", "solid", "dotted"), col=c("black", "red", "black"), legend=c("Hypothesized CDF", "Empirical CDF", "K-S test statistic"))
 }
 
 # p less than 0.100, sample size 5: 100

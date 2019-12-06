@@ -1,6 +1,6 @@
 Lilliefors test
 ===============
-A quick implementation of Lilliefors test in R, which can be applied to find critical values of any probability distribution function. See references below for more information:
+A quick implementation of Lilliefors test in R, which can be applied to find critical values of any probability distribution function (version 1.0). See references below for more information:
 
 - Lilliefors, H. (1969). On the Kolmogorov-Smirnov Test for the Exponential Distribution with Mean Unknown. Journal of the American Statistical Association, 64(325), 387-389. doi:10.2307/2283748
 - Dallal, G., & Wilkinson, L. (1986). An Analytic Approximation to the Distribution of Lilliefors's Test Statistic for Normality. The American Statistician, 40(4), 294-296. doi:10.2307/2684607
